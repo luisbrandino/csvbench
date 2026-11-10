@@ -1,0 +1,6 @@
+bench.csv
+native/build/
+web/node_modules/
+web/dist/
+benchmark/.perf.tmp
+__pycache__/

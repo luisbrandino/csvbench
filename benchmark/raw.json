@@ -1,0 +1,2508 @@
+{
+ "env_start": {
+  "governors": [
+   "performance"
+  ],
+  "driver": "amd-pstate-epp",
+  "epp": "performance",
+  "perf_event_paranoid": "-1",
+  "nmi_watchdog": "0",
+  "compositor_running": false,
+  "loadavg": "0.49 0.61 0.41 1/1592 6583",
+  "kernel": "7.2.11+deb13-amd64"
+ },
+ "startup": {
+  "native": [
+   398.791,
+   410.415,
+   402.362,
+   392.239,
+   391.588,
+   412.753,
+   401.378,
+   407.169,
+   391.263,
+   414.354,
+   401.688,
+   402.263,
+   393.788,
+   401.291,
+   397.197
+  ],
+  "web": [
+   1707.0,
+   1717.0,
+   1730.0,
+   1717.0,
+   1737.0,
+   1733.0,
+   1733.0,
+   1733.0,
+   1735.0,
+   1742.0,
+   1726.0,
+   1737.0,
+   1723.0,
+   1728.0,
+   1733.0
+  ]
+ },
+ "filter": {
+  "native": [
+   [
+    11.668,
+    11.434,
+    11.309,
+    11.282,
+    11.404,
+    11.291,
+    11.23,
+    11.247,
+    11.261,
+    11.212,
+    11.203,
+    11.276,
+    11.246,
+    11.316,
+    11.274,
+    11.271,
+    11.244,
+    11.235,
+    11.297,
+    11.182
+   ],
+   [
+    12.539,
+    11.961,
+    11.682,
+    11.73,
+    11.823,
+    11.683,
+    11.613,
+    11.616,
+    11.56,
+    11.668,
+    11.709,
+    11.834,
+    11.679,
+    11.69,
+    11.821,
+    11.722,
+    11.946,
+    12.569,
+    11.753,
+    11.549
+   ],
+   [
+    11.909,
+    11.669,
+    11.623,
+    11.546,
+    11.604,
+    11.553,
+    11.546,
+    11.543,
+    11.472,
+    11.47,
+    11.56,
+    11.443,
+    11.372,
+    11.427,
+    11.428,
+    11.442,
+    11.498,
+    11.37,
+    11.413,
+    11.423
+   ],
+   [
+    12.655,
+    12.508,
+    12.362,
+    12.298,
+    12.331,
+    12.279,
+    12.291,
+    12.294,
+    12.379,
+    12.429,
+    12.479,
+    12.412,
+    12.325,
+    12.414,
+    12.412,
+    12.329,
+    12.345,
+    12.397,
+    12.334,
+    12.51
+   ],
+   [
+    11.559,
+    11.431,
+    11.473,
+    11.386,
+    11.403,
+    11.31,
+    11.108,
+    11.558,
+    11.557,
+    11.664,
+    11.402,
+    11.359,
+    11.543,
+    11.549,
+    11.474,
+    11.409,
+    11.362,
+    11.446,
+    11.476,
+    11.435
+   ]
+  ],
+  "web": [
+   [
+    19.742,
+    20.635,
+    20.441,
+    20.634,
+    20.144,
+    20.296,
+    20.497,
+    20.323,
+    20.276,
+    20.978,
+    20.594,
+    20.057,
+    20.433,
+    20.243,
+    20.637,
+    20.224,
+    20.418,
+    20.026,
+    20.29,
+    20.146
+   ],
+   [
+    19.923,
+    20.623,
+    20.316,
+    20.31,
+    20.303,
+    20.196,
+    20.435,
+    20.13,
+    20.404,
+    20.549,
+    20.37,
+    20.087,
+    20.437,
+    20.137,
+    20.223,
+    20.02,
+    20.588,
+    20.13,
+    20.306,
+    20.449
+   ],
+   [
+    19.932,
+    20.637,
+    20.413,
+    20.437,
+    20.464,
+    20.592,
+    20.677,
+    20.442,
+    20.504,
+    20.248,
+    20.404,
+    20.302,
+    20.415,
+    20.377,
+    20.478,
+    20.22,
+    20.605,
+    20.295,
+    20.258,
+    20.229
+   ],
+   [
+    20.198,
+    20.366,
+    20.37,
+    20.51,
+    20.376,
+    20.344,
+    20.471,
+    20.244,
+    20.467,
+    20.65,
+    20.63,
+    20.485,
+    20.473,
+    20.413,
+    20.92,
+    20.394,
+    20.466,
+    20.749,
+    20.439,
+    20.266
+   ],
+   [
+    19.818,
+    20.404,
+    20.157,
+    20.314,
+    20.294,
+    20.803,
+    20.39,
+    20.189,
+    20.517,
+    20.383,
+    20.685,
+    20.065,
+    20.475,
+    20.238,
+    20.159,
+    19.93,
+    20.162,
+    20.167,
+    20.648,
+    20.238
+   ]
+  ]
+ },
+ "idle": {
+  "native": [
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 309980,
+      "pss_kb": 294654
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 309980,
+      "pss_kb": 294654
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 309980,
+      "pss_kb": 294654
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 309980,
+      "pss_kb": 294654
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 309980,
+      "pss_kb": 294652
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 309980,
+      "pss_kb": 294654
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 310052,
+      "pss_kb": 294637
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 310052,
+      "pss_kb": 294637
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 310052,
+      "pss_kb": 294637
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 310052,
+      "pss_kb": 294637
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 310052,
+      "pss_kb": 294637
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 310052,
+      "pss_kb": 294637
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 309972,
+      "pss_kb": 294610
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 309972,
+      "pss_kb": 294610
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 309972,
+      "pss_kb": 294610
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 309972,
+      "pss_kb": 294610
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 309972,
+      "pss_kb": 294610
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 309972,
+      "pss_kb": 294610
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 309844,
+      "pss_kb": 294600
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 309844,
+      "pss_kb": 294600
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 309844,
+      "pss_kb": 294600
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 309844,
+      "pss_kb": 294600
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 309844,
+      "pss_kb": 294600
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 309844,
+      "pss_kb": 294600
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 310076,
+      "pss_kb": 294614
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 310076,
+      "pss_kb": 294614
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 310076,
+      "pss_kb": 294614
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 310076,
+      "pss_kb": 294614
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 310076,
+      "pss_kb": 294625
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 310076,
+      "pss_kb": 294614
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 309940,
+      "pss_kb": 294605
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 309940,
+      "pss_kb": 294605
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 309940,
+      "pss_kb": 294605
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 309940,
+      "pss_kb": 294605
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 309940,
+      "pss_kb": 294605
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 309940,
+      "pss_kb": 294605
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 309752,
+      "pss_kb": 294559
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 309752,
+      "pss_kb": 294559
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 309752,
+      "pss_kb": 294559
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 309752,
+      "pss_kb": 294559
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 309752,
+      "pss_kb": 294548
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 309752,
+      "pss_kb": 294559
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 310164,
+      "pss_kb": 294663
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 310164,
+      "pss_kb": 294663
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 310164,
+      "pss_kb": 294663
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 310164,
+      "pss_kb": 294663
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 310164,
+      "pss_kb": 294663
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 310164,
+      "pss_kb": 294663
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 310048,
+      "pss_kb": 294664
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 310048,
+      "pss_kb": 294664
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 310048,
+      "pss_kb": 294664
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 310048,
+      "pss_kb": 294664
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 310048,
+      "pss_kb": 294664
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 310048,
+      "pss_kb": 294664
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 309900,
+      "pss_kb": 294584
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 309900,
+      "pss_kb": 294596
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 309900,
+      "pss_kb": 294592
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 309900,
+      "pss_kb": 294596
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 309900,
+      "pss_kb": 294596
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 309900,
+      "pss_kb": 294596
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 310220,
+      "pss_kb": 294700
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 310220,
+      "pss_kb": 294700
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 310220,
+      "pss_kb": 294700
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 310220,
+      "pss_kb": 294700
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 310220,
+      "pss_kb": 294700
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 310220,
+      "pss_kb": 294700
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 309904,
+      "pss_kb": 294607
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 309904,
+      "pss_kb": 294607
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 309904,
+      "pss_kb": 294607
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 309904,
+      "pss_kb": 294607
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 309904,
+      "pss_kb": 294607
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 309904,
+      "pss_kb": 294607
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 309772,
+      "pss_kb": 294566
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 309772,
+      "pss_kb": 294566
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 309772,
+      "pss_kb": 294566
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 309772,
+      "pss_kb": 294566
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 309772,
+      "pss_kb": 294555
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 309772,
+      "pss_kb": 294566
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 309796,
+      "pss_kb": 294582
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 309796,
+      "pss_kb": 294582
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 309796,
+      "pss_kb": 294582
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 309796,
+      "pss_kb": 294582
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 309796,
+      "pss_kb": 294582
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 309796,
+      "pss_kb": 294582
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 1,
+      "rss_kb": 310104,
+      "pss_kb": 294640
+     },
+     {
+      "t": 1.5,
+      "nproc": 1,
+      "rss_kb": 310104,
+      "pss_kb": 294640
+     },
+     {
+      "t": 3.0,
+      "nproc": 1,
+      "rss_kb": 310104,
+      "pss_kb": 294640
+     },
+     {
+      "t": 5.0,
+      "nproc": 1,
+      "rss_kb": 310104,
+      "pss_kb": 294640
+     },
+     {
+      "t": 10.0,
+      "nproc": 1,
+      "rss_kb": 310104,
+      "pss_kb": 294640
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench",
+      "rss_kb": 310104,
+      "pss_kb": 294640
+     }
+    ]
+   }
+  ],
+  "web": [
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 992168,
+      "pss_kb": 594761
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 992008,
+      "pss_kb": 594637
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 992008,
+      "pss_kb": 594637
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 992148,
+      "pss_kb": 594685
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 992156,
+      "pss_kb": 594654
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 441792,
+      "pss_kb": 377963
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 132372,
+      "pss_kb": 60041
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,3111244159005423469,5838181792347784064,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,14331218032833750259,5356195520060379713,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 227752,
+      "pss_kb": 105068
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,3111244159005423469,5838181792347784064,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,14331218032833750259,5356195520060379713,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72352,
+      "pss_kb": 22990
+     },
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 53396,
+      "pss_kb": 11900
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 53084,
+      "pss_kb": 11521
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11260,
+      "pss_kb": 5154
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 988308,
+      "pss_kb": 590815
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 988128,
+      "pss_kb": 590673
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 988128,
+      "pss_kb": 590673
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 988212,
+      "pss_kb": 590622
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 988212,
+      "pss_kb": 590622
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,12856033008767917080,12461288774348015367,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,6993919069964978374,3216746255530521071,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 226700,
+      "pss_kb": 103668
+     },
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 52744,
+      "pss_kb": 11691
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 53064,
+      "pss_kb": 11708
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12856033008767917080,12461288774348015367,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,6993919069964978374,3216746255530521071,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72024,
+      "pss_kb": 22836
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11448,
+      "pss_kb": 5213
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 438944,
+      "pss_kb": 375573
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 133204,
+      "pss_kb": 59984
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 994820,
+      "pss_kb": 594840
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 994660,
+      "pss_kb": 594717
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 994660,
+      "pss_kb": 594717
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 994736,
+      "pss_kb": 594737
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 994744,
+      "pss_kb": 594745
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,5775142671099423498,12286736154553027240,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,14041076211704514080,6128655806433790423,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 228320,
+      "pss_kb": 105180
+     },
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 52836,
+      "pss_kb": 11703
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 53176,
+      "pss_kb": 11617
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,5775142671099423498,12286736154553027240,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,14041076211704514080,6128655806433790423,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72900,
+      "pss_kb": 22758
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11316,
+      "pss_kb": 5163
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 441988,
+      "pss_kb": 378051
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 134124,
+      "pss_kb": 60245
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 993556,
+      "pss_kb": 594930
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 993396,
+      "pss_kb": 594807
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 993396,
+      "pss_kb": 594807
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 993456,
+      "pss_kb": 594795
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 993464,
+      "pss_kb": 594802
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,2735091429723539554,11978489297288630557,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,2405606013420778561,16114676348285267641,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 228460,
+      "pss_kb": 105064
+     },
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 52380,
+      "pss_kb": 11631
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 52476,
+      "pss_kb": 11261
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2735091429723539554,11978489297288630557,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,2405606013420778561,16114676348285267641,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72868,
+      "pss_kb": 22758
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11408,
+      "pss_kb": 5177
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 439620,
+      "pss_kb": 376381
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 136184,
+      "pss_kb": 62535
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 991516,
+      "pss_kb": 595393
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 991300,
+      "pss_kb": 595214
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 991300,
+      "pss_kb": 595214
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 991428,
+      "pss_kb": 595194
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 991428,
+      "pss_kb": 595194
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 52020,
+      "pss_kb": 11533
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 51984,
+      "pss_kb": 11143
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16188267751093810960,7334596202591604609,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,14234844664134273489,1054467673803797819,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72452,
+      "pss_kb": 22987
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11336,
+      "pss_kb": 5161
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 441296,
+      "pss_kb": 377988
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 134944,
+      "pss_kb": 62257
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,16188267751093810960,7334596202591604609,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,14234844664134273489,1054467673803797819,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 227268,
+      "pss_kb": 104145
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 994316,
+      "pss_kb": 595104
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 994156,
+      "pss_kb": 594982
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 994156,
+      "pss_kb": 594982
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 994200,
+      "pss_kb": 594964
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 994208,
+      "pss_kb": 594972
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 52660,
+      "pss_kb": 11647
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 52832,
+      "pss_kb": 11347
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,8297011410698252652,3946489509970417140,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,507323055529851120,923446402501571045,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72832,
+      "pss_kb": 22838
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11384,
+      "pss_kb": 5183
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 440076,
+      "pss_kb": 376533
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 136088,
+      "pss_kb": 62243
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,8297011410698252652,3946489509970417140,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,507323055529851120,923446402501571045,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 228284,
+      "pss_kb": 105191
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 994036,
+      "pss_kb": 594667
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 993876,
+      "pss_kb": 594546
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 993876,
+      "pss_kb": 594546
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 993924,
+      "pss_kb": 594532
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 993932,
+      "pss_kb": 594540
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "bench.csv",
+      "rss_kb": 134228,
+      "pss_kb": 60298
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,9881171718993878525,6896501046183997027,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,1868644403954329742,8611959663781505366,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 227980,
+      "pss_kb": 105000
+     },
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 52828,
+      "pss_kb": 11727
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 52776,
+      "pss_kb": 11515
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9881171718993878525,6896501046183997027,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,1868644403954329742,8611959663781505366,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72980,
+      "pss_kb": 23093
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11352,
+      "pss_kb": 5163
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 441732,
+      "pss_kb": 377750
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 989828,
+      "pss_kb": 593467
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 989668,
+      "pss_kb": 593343
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 989668,
+      "pss_kb": 593343
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 989832,
+      "pss_kb": 593359
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 989836,
+      "pss_kb": 593363
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "bench.csv",
+      "rss_kb": 134100,
+      "pss_kb": 60965
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,5779375527516886205,13507595438642346058,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,2033801271408866001,15855660877058891746,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 228280,
+      "pss_kb": 105207
+     },
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 51596,
+      "pss_kb": 11371
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 51356,
+      "pss_kb": 10996
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,5779375527516886205,13507595438642346058,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,2033801271408866001,15855660877058891746,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72804,
+      "pss_kb": 22940
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11260,
+      "pss_kb": 5152
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 440272,
+      "pss_kb": 376712
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 994388,
+      "pss_kb": 596580
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 994232,
+      "pss_kb": 596460
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 994232,
+      "pss_kb": 596460
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 994420,
+      "pss_kb": 596480
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 994420,
+      "pss_kb": 596479
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "bench.csv",
+      "rss_kb": 134608,
+      "pss_kb": 61647
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,12835102357334135773,2454056160983472957,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,9009519071831473215,283148378793447824,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 228156,
+      "pss_kb": 105124
+     },
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 53200,
+      "pss_kb": 11887
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 52868,
+      "pss_kb": 11519
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12835102357334135773,2454056160983472957,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,9009519071831473215,283148378793447824,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72744,
+      "pss_kb": 23086
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11384,
+      "pss_kb": 5176
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 441272,
+      "pss_kb": 378021
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 991260,
+      "pss_kb": 592113
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 991080,
+      "pss_kb": 591969
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 991080,
+      "pss_kb": 591969
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 991116,
+      "pss_kb": 591938
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 991116,
+      "pss_kb": 591938
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 52932,
+      "pss_kb": 11814
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 52672,
+      "pss_kb": 11372
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15802518405717269137,11933057513868944420,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,508319106423210617,9212991884377337762,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72612,
+      "pss_kb": 23207
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11360,
+      "pss_kb": 5155
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 441088,
+      "pss_kb": 376860
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 134400,
+      "pss_kb": 60100
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,15802518405717269137,11933057513868944420,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,508319106423210617,9212991884377337762,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 226016,
+      "pss_kb": 103461
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 991524,
+      "pss_kb": 593179
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 991368,
+      "pss_kb": 593059
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 991368,
+      "pss_kb": 593059
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 991484,
+      "pss_kb": 593084
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 991484,
+      "pss_kb": 593084
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 439376,
+      "pss_kb": 376373
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 133756,
+      "pss_kb": 60243
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,12793766709246382941,15499850850332694704,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,8943017394917349165,11066518078093328407,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 228108,
+      "pss_kb": 104942
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,12793766709246382941,15499850850332694704,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,8943017394917349165,11066518078093328407,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72736,
+      "pss_kb": 23011
+     },
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 53228,
+      "pss_kb": 11858
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 52924,
+      "pss_kb": 11490
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11240,
+      "pss_kb": 5142
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 994732,
+      "pss_kb": 597033
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 994564,
+      "pss_kb": 596907
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 994564,
+      "pss_kb": 596907
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 994792,
+      "pss_kb": 596924
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 994800,
+      "pss_kb": 596932
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 52448,
+      "pss_kb": 11606
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 52364,
+      "pss_kb": 11434
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,14506822662927474053,17130185925006474657,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,7400990253066569254,4475234128959910244,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72460,
+      "pss_kb": 22942
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11292,
+      "pss_kb": 5157
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 441896,
+      "pss_kb": 378165
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 135852,
+      "pss_kb": 62371
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,14506822662927474053,17130185925006474657,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,7400990253066569254,4475234128959910244,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 228252,
+      "pss_kb": 105232
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 993972,
+      "pss_kb": 596416
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 993812,
+      "pss_kb": 596292
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 993812,
+      "pss_kb": 596292
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 993952,
+      "pss_kb": 596283
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 993960,
+      "pss_kb": 596291
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,17510486469250601347,1525542851893129740,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,1321667840043539609,15982501983455778223,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72220,
+      "pss_kb": 22845
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 441868,
+      "pss_kb": 378094
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 134648,
+      "pss_kb": 61354
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,17510486469250601347,1525542851893129740,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,1321667840043539609,15982501983455778223,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 228140,
+      "pss_kb": 105433
+     },
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 53040,
+      "pss_kb": 11910
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 52544,
+      "pss_kb": 11484
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11352,
+      "pss_kb": 5172
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 991208,
+      "pss_kb": 593077
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 991048,
+      "pss_kb": 592953
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 991048,
+      "pss_kb": 592953
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 991244,
+      "pss_kb": 592977
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 991252,
+      "pss_kb": 592985
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 440076,
+      "pss_kb": 376554
+     },
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 53288,
+      "pss_kb": 11802
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 53252,
+      "pss_kb": 11406
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,16836382854700771194,7409454361270240403,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,4125117922090450913,16969728085595514835,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72368,
+      "pss_kb": 23063
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11428,
+      "pss_kb": 5182
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 132628,
+      "pss_kb": 59550
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,16836382854700771194,7409454361270240403,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,4125117922090450913,16969728085595514835,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 228008,
+      "pss_kb": 105396
+     }
+    ]
+   },
+   {
+    "series": [
+     {
+      "t": 0.5,
+      "nproc": 7,
+      "rss_kb": 993112,
+      "pss_kb": 594987
+     },
+     {
+      "t": 1.5,
+      "nproc": 7,
+      "rss_kb": 992952,
+      "pss_kb": 594865
+     },
+     {
+      "t": 3.0,
+      "nproc": 7,
+      "rss_kb": 992952,
+      "pss_kb": 594865
+     },
+     {
+      "t": 5.0,
+      "nproc": 7,
+      "rss_kb": 993100,
+      "pss_kb": 594868
+     },
+     {
+      "t": 10.0,
+      "nproc": 7,
+      "rss_kb": 993164,
+      "pss_kb": 594876
+     }
+    ],
+    "breakdown_1_5s": [
+     {
+      "type": "csvbench --type=zygote --no-zygote-sandbox",
+      "rss_kb": 53632,
+      "pss_kb": 12006
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 53472,
+      "pss_kb": 11580
+     },
+     {
+      "type": "csvbench --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,15303285447338404732,3681250956538635370,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,3486009623190282350,4576027631001168459,4 --trace-process-track-uuid=3190708989122997041",
+      "rss_kb": 72148,
+      "pss_kb": 22812
+     },
+     {
+      "type": "csvbench --type=zygote",
+      "rss_kb": 11324,
+      "pss_kb": 5147
+     },
+     {
+      "type": "bench.csv --bench-idle",
+      "rss_kb": 441932,
+      "pss_kb": 378242
+     },
+     {
+      "type": "bench.csv",
+      "rss_kb": 132864,
+      "pss_kb": 59847
+     },
+     {
+      "type": "csvbench --gpu-preferences=WAAAAAAAAAAgAQAEAAAAAAAAAAAAAGAAQAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=3,i,15303285447338404732,3681250956538635370,262144 --enable-features=GlobalShortcutsPortalPreferredTrigger,PdfUseShowSaveFilePicker --disable-features=DropInputEventsWhilePaintHolding,LocalNetworkAccessChecks,ScreenAIOCREnabled,SpareRendererForSitePerProcess,TraceSiteInstanceGetProcessCreation --variations-seed-version --pseudonymization-salt-handle=7,i,3486009623190282350,4576027631001168459,4 --trace-process-track-uuid=3190708988185955192",
+      "rss_kb": 227580,
+      "pss_kb": 105231
+     }
+    ]
+   }
+  ]
+ },
+ "perf": {
+  "native": {
+   "startup": [
+    {
+     "task-clock": 412.37,
+     "cycles": 1847994249.0,
+     "instructions": 4801534153.0,
+     "cache-references": 74765355.0,
+     "cache-misses": 6220020.0,
+     "branches": 1017157280.0,
+     "branch-misses": 5395955.0,
+     "elapsed": 0.422807656,
+     "user": 0.347706,
+     "sys": 0.064689,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 402.59,
+     "cycles": 1808656425.0,
+     "instructions": 4793805317.0,
+     "cache-references": 74612909.0,
+     "cache-misses": 6031446.0,
+     "branches": 1015338769.0,
+     "branch-misses": 5216130.0,
+     "elapsed": 0.412974335,
+     "user": 0.346157,
+     "sys": 0.056351,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 407.79,
+     "cycles": 1837481049.0,
+     "instructions": 4798182123.0,
+     "cache-references": 74737735.0,
+     "cache-misses": 6049341.0,
+     "branches": 1016417567.0,
+     "branch-misses": 5265193.0,
+     "elapsed": 0.41686444,
+     "user": 0.347827,
+     "sys": 0.05997,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 407.96,
+     "cycles": 1811236110.0,
+     "instructions": 4795394263.0,
+     "cache-references": 74605295.0,
+     "cache-misses": 5895730.0,
+     "branches": 1015694780.0,
+     "branch-misses": 5211270.0,
+     "elapsed": 0.4189974,
+     "user": 0.332565,
+     "sys": 0.075223,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 410.58,
+     "cycles": 1811712919.0,
+     "instructions": 4797100316.0,
+     "cache-references": 74785191.0,
+     "cache-misses": 6059467.0,
+     "branches": 1016143823.0,
+     "branch-misses": 5277690.0,
+     "elapsed": 0.416911989,
+     "user": 0.338007,
+     "sys": 0.07243,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 407.86,
+     "cycles": 1812891096.0,
+     "instructions": 4804107224.0,
+     "cache-references": 74998002.0,
+     "cache-misses": 5899837.0,
+     "branches": 1017644842.0,
+     "branch-misses": 5385150.0,
+     "elapsed": 0.418861586,
+     "user": 0.347891,
+     "sys": 0.059981,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 402.9,
+     "cycles": 1794124482.0,
+     "instructions": 4794247889.0,
+     "cache-references": 73984156.0,
+     "cache-misses": 5796208.0,
+     "branches": 1015512583.0,
+     "branch-misses": 5163753.0,
+     "elapsed": 0.408867554,
+     "user": 0.330345,
+     "sys": 0.072514,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 409.57,
+     "cycles": 1821679423.0,
+     "instructions": 4801383023.0,
+     "cache-references": 74950272.0,
+     "cache-misses": 6256154.0,
+     "branches": 1017117414.0,
+     "branch-misses": 5348560.0,
+     "elapsed": 0.420549802,
+     "user": 0.327373,
+     "sys": 0.081843,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 408.75,
+     "cycles": 1810867191.0,
+     "instructions": 4799640878.0,
+     "cache-references": 74415394.0,
+     "cache-misses": 5938675.0,
+     "branches": 1016656663.0,
+     "branch-misses": 5260545.0,
+     "elapsed": 0.414385271,
+     "user": 0.352025,
+     "sys": 0.056647,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 408.73,
+     "cycles": 1821530565.0,
+     "instructions": 4796466202.0,
+     "cache-references": 74988729.0,
+     "cache-misses": 6024278.0,
+     "branches": 1015996434.0,
+     "branch-misses": 5256554.0,
+     "elapsed": 0.419735114,
+     "user": 0.360634,
+     "sys": 0.048084,
+     "multiplexed": false
+    }
+   ],
+   "filter": [
+    {
+     "task-clock": 811.89,
+     "cycles": 3652598370.0,
+     "instructions": 8948940874.0,
+     "cache-references": 318626814.0,
+     "cache-misses": 48097111.0,
+     "branches": 1927349213.0,
+     "branch-misses": 9415867.0,
+     "elapsed": 0.821968606,
+     "user": 0.736242,
+     "sys": 0.075614,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 804.14,
+     "cycles": 3615584970.0,
+     "instructions": 8992161766.0,
+     "cache-references": 317479633.0,
+     "cache-misses": 48386028.0,
+     "branches": 1944930893.0,
+     "branch-misses": 8006990.0,
+     "elapsed": 0.814496163,
+     "user": 0.740113,
+     "sys": 0.064009,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 818.59,
+     "cycles": 3666003978.0,
+     "instructions": 8959601650.0,
+     "cache-references": 322551539.0,
+     "cache-misses": 48163360.0,
+     "branches": 1930746044.0,
+     "branch-misses": 9770593.0,
+     "elapsed": 0.830539639,
+     "user": 0.762033,
+     "sys": 0.056149,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 802.86,
+     "cycles": 3604799784.0,
+     "instructions": 8940440113.0,
+     "cache-references": 318562093.0,
+     "cache-misses": 48345398.0,
+     "branches": 1923608311.0,
+     "branch-misses": 8194124.0,
+     "elapsed": 0.813622384,
+     "user": 0.754884,
+     "sys": 0.047929,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 828.75,
+     "cycles": 3698679079.0,
+     "instructions": 8953003496.0,
+     "cache-references": 316571247.0,
+     "cache-misses": 48339568.0,
+     "branches": 1929243005.0,
+     "branch-misses": 10301450.0,
+     "elapsed": 0.840501691,
+     "user": 0.776746,
+     "sys": 0.051783,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 815.24,
+     "cycles": 3667499286.0,
+     "instructions": 8953403281.0,
+     "cache-references": 320042769.0,
+     "cache-misses": 48125216.0,
+     "branches": 1929274466.0,
+     "branch-misses": 9404264.0,
+     "elapsed": 0.825284334,
+     "user": 0.750658,
+     "sys": 0.064572,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 832.04,
+     "cycles": 3696938276.0,
+     "instructions": 8952326917.0,
+     "cache-references": 316987418.0,
+     "cache-misses": 47982717.0,
+     "branches": 1929096194.0,
+     "branch-misses": 10372074.0,
+     "elapsed": 0.844181642,
+     "user": 0.811594,
+     "sys": 0.01999,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 823.09,
+     "cycles": 3691916400.0,
+     "instructions": 8950693191.0,
+     "cache-references": 318401020.0,
+     "cache-misses": 48286139.0,
+     "branches": 1927687755.0,
+     "branch-misses": 9776362.0,
+     "elapsed": 0.834151553,
+     "user": 0.77034,
+     "sys": 0.052707,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 811.78,
+     "cycles": 3638442344.0,
+     "instructions": 8952499513.0,
+     "cache-references": 317903157.0,
+     "cache-misses": 47954621.0,
+     "branches": 1929074058.0,
+     "branch-misses": 9696829.0,
+     "elapsed": 0.822013491,
+     "user": 0.74926,
+     "sys": 0.062438,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 804.93,
+     "cycles": 3595283232.0,
+     "instructions": 8944656689.0,
+     "cache-references": 319095741.0,
+     "cache-misses": 48100781.0,
+     "branches": 1925456491.0,
+     "branch-misses": 8516217.0,
+     "elapsed": 0.815767568,
+     "user": 0.756569,
+     "sys": 0.048291,
+     "multiplexed": false
+    }
+   ]
+  },
+  "web": {
+   "startup": [
+    {
+     "task-clock": 2463.25,
+     "cycles": 10607054968.0,
+     "instructions": 19983044066.0,
+     "cache-references": 370324359.0,
+     "cache-misses": 63980662.0,
+     "branches": 3532497551.0,
+     "branch-misses": 171645101.0,
+     "elapsed": 1.780669278,
+     "user": 0.107005,
+     "sys": 0.146413,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 2456.19,
+     "cycles": 10501935599.0,
+     "instructions": 19972075816.0,
+     "cache-references": 371085788.0,
+     "cache-misses": 64949963.0,
+     "branches": 3530065982.0,
+     "branch-misses": 171203229.0,
+     "elapsed": 1.778310244,
+     "user": 0.098711,
+     "sys": 0.158953,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 2446.96,
+     "cycles": 10461439472.0,
+     "instructions": 19942046623.0,
+     "cache-references": 367604414.0,
+     "cache-misses": 63506226.0,
+     "branches": 3524524964.0,
+     "branch-misses": 170194559.0,
+     "elapsed": 1.768424805,
+     "user": 0.109851,
+     "sys": 0.145505,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 2472.76,
+     "cycles": 10560737464.0,
+     "instructions": 19966482598.0,
+     "cache-references": 366754788.0,
+     "cache-misses": 63362087.0,
+     "branches": 3529242440.0,
+     "branch-misses": 171485822.0,
+     "elapsed": 1.786523987,
+     "user": 0.111202,
+     "sys": 0.144547,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 2471.61,
+     "cycles": 10562530080.0,
+     "instructions": 19964324741.0,
+     "cache-references": 371842595.0,
+     "cache-misses": 65616614.0,
+     "branches": 3529155093.0,
+     "branch-misses": 171278149.0,
+     "elapsed": 1.779617685,
+     "user": 0.109074,
+     "sys": 0.147322,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 2445.54,
+     "cycles": 10446016721.0,
+     "instructions": 19942578284.0,
+     "cache-references": 366055405.0,
+     "cache-misses": 64514285.0,
+     "branches": 3525788872.0,
+     "branch-misses": 170685646.0,
+     "elapsed": 1.775754982,
+     "user": 0.123681,
+     "sys": 0.131699,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 2474.16,
+     "cycles": 10541371581.0,
+     "instructions": 19948997210.0,
+     "cache-references": 366111419.0,
+     "cache-misses": 63294165.0,
+     "branches": 3526682370.0,
+     "branch-misses": 170666559.0,
+     "elapsed": 1.786999148,
+     "user": 0.129281,
+     "sys": 0.132496,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 2474.04,
+     "cycles": 10582101780.0,
+     "instructions": 19951741058.0,
+     "cache-references": 372332169.0,
+     "cache-misses": 66363276.0,
+     "branches": 3527194408.0,
+     "branch-misses": 171397532.0,
+     "elapsed": 1.797234623,
+     "user": 0.10085,
+     "sys": 0.157148,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 2401.16,
+     "cycles": 10224194601.0,
+     "instructions": 19599302045.0,
+     "cache-references": 360905935.0,
+     "cache-misses": 63441051.0,
+     "branches": 3470491246.0,
+     "branch-misses": 165667602.0,
+     "elapsed": 1.769723,
+     "user": 0.116333,
+     "sys": 0.138757,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 2465.86,
+     "cycles": 10529416986.0,
+     "instructions": 19956117930.0,
+     "cache-references": 373840039.0,
+     "cache-misses": 64844141.0,
+     "branches": 3526392711.0,
+     "branch-misses": 171026331.0,
+     "elapsed": 1.782596221,
+     "user": 0.116046,
+     "sys": 0.140189,
+     "multiplexed": false
+    }
+   ],
+   "filter": [
+    {
+     "task-clock": 3192.96,
+     "cycles": 13802348745.0,
+     "instructions": 30743049892.0,
+     "cache-references": 713973357.0,
+     "cache-misses": 80405879.0,
+     "branches": 6039417709.0,
+     "branch-misses": 176956923.0,
+     "elapsed": 2.446698569,
+     "user": 0.14265,
+     "sys": 0.119168,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 3166.27,
+     "cycles": 13662128166.0,
+     "instructions": 30666174354.0,
+     "cache-references": 712848536.0,
+     "cache-misses": 82511681.0,
+     "branches": 6027132684.0,
+     "branch-misses": 175962376.0,
+     "elapsed": 2.433316955,
+     "user": 0.126438,
+     "sys": 0.136347,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 3166.04,
+     "cycles": 13626126294.0,
+     "instructions": 30647743471.0,
+     "cache-references": 710027700.0,
+     "cache-misses": 80556956.0,
+     "branches": 6023667777.0,
+     "branch-misses": 175198274.0,
+     "elapsed": 2.441744549,
+     "user": 0.125656,
+     "sys": 0.133058,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 3202.94,
+     "cycles": 13766562386.0,
+     "instructions": 30649791860.0,
+     "cache-references": 708242829.0,
+     "cache-misses": 81600400.0,
+     "branches": 6025094852.0,
+     "branch-misses": 175772697.0,
+     "elapsed": 2.461597088,
+     "user": 0.127399,
+     "sys": 0.135967,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 3182.15,
+     "cycles": 13674593855.0,
+     "instructions": 30723863747.0,
+     "cache-references": 712229122.0,
+     "cache-misses": 80695195.0,
+     "branches": 6036948595.0,
+     "branch-misses": 176743419.0,
+     "elapsed": 2.446612758,
+     "user": 0.126217,
+     "sys": 0.134748,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 3184.44,
+     "cycles": 13661896646.0,
+     "instructions": 30686448329.0,
+     "cache-references": 713177319.0,
+     "cache-misses": 81869737.0,
+     "branches": 6030715278.0,
+     "branch-misses": 176136589.0,
+     "elapsed": 2.453888823,
+     "user": 0.124543,
+     "sys": 0.137158,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 3186.8,
+     "cycles": 13693772739.0,
+     "instructions": 30730886026.0,
+     "cache-references": 715973231.0,
+     "cache-misses": 81024618.0,
+     "branches": 6037549198.0,
+     "branch-misses": 176835628.0,
+     "elapsed": 2.451430252,
+     "user": 0.110401,
+     "sys": 0.152481,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 3185.87,
+     "cycles": 13675825690.0,
+     "instructions": 30760043222.0,
+     "cache-references": 712563077.0,
+     "cache-misses": 81653318.0,
+     "branches": 6042074569.0,
+     "branch-misses": 177146469.0,
+     "elapsed": 2.446879018,
+     "user": 0.132128,
+     "sys": 0.13345,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 3213.23,
+     "cycles": 13811266325.0,
+     "instructions": 30721518034.0,
+     "cache-references": 712649237.0,
+     "cache-misses": 83881066.0,
+     "branches": 6036609146.0,
+     "branch-misses": 176890583.0,
+     "elapsed": 2.463671348,
+     "user": 0.114962,
+     "sys": 0.146679,
+     "multiplexed": false
+    },
+    {
+     "task-clock": 3171.66,
+     "cycles": 13646812405.0,
+     "instructions": 30702807292.0,
+     "cache-references": 709668398.0,
+     "cache-misses": 81129064.0,
+     "branches": 6032092633.0,
+     "branch-misses": 176318342.0,
+     "elapsed": 2.444979245,
+     "user": 0.105043,
+     "sys": 0.156395,
+     "multiplexed": false
+    }
+   ]
+  }
+ },
+ "env_end": {
+  "governors": [
+   "performance"
+  ],
+  "driver": "amd-pstate-epp",
+  "epp": "performance",
+  "perf_event_paranoid": "-1",
+  "nmi_watchdog": "0",
+  "compositor_running": false,
+  "loadavg": "1.60 0.81 0.55 1/1623 15779",
+  "kernel": "7.2.11+deb13-amd64"
+ }
+}

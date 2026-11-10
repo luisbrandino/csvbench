@@ -1,0 +1,35 @@
+{
+  "name": "csvbench",
+  "version": "1.0.0",
+  "private": true,
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "43.4.0",
+    "electron-builder": "26.15.3"
+  },
+  "build": {
+    "appId": "org.csvbench.app",
+    "productName": "csvbench",
+    "asar": true,
+    "files": [
+      "main.js",
+      "renderer.js",
+      "index.html",
+      "style.css",
+      "icon.png"
+    ],
+    "linux": {
+      "target": [
+        {
+          "target": "AppImage",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "icon.png",
+      "category": "Utility"
+    }
+  }
+}

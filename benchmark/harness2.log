@@ -1,0 +1,48 @@
+11:45:23 env {'governors': ['performance'], 'driver': 'amd-pstate-epp', 'epp': 'performance', 'perf_event_paranoid': '-1', 'nmi_watchdog': '0', 'compositor_running': False, 'loadavg': '0.49 0.61 0.41 1/1592 6583', 'kernel': '7.2.11+deb13-amd64'}
+11:45:28 warm-up done
+11:45:30 startup 0 {'native': 398.791, 'web': 1707.0}
+11:45:32 startup 1 {'native': 410.415, 'web': 1717.0}
+11:45:34 startup 2 {'native': 402.362, 'web': 1730.0}
+11:45:36 startup 3 {'native': 392.239, 'web': 1717.0}
+11:45:38 startup 4 {'native': 391.588, 'web': 1737.0}
+11:45:41 startup 5 {'native': 412.753, 'web': 1733.0}
+11:45:43 startup 6 {'native': 401.378, 'web': 1733.0}
+11:45:45 startup 7 {'native': 407.169, 'web': 1733.0}
+11:45:47 startup 8 {'native': 391.263, 'web': 1735.0}
+11:45:49 startup 9 {'native': 414.354, 'web': 1742.0}
+11:45:52 startup 10 {'native': 401.688, 'web': 1726.0}
+11:45:54 startup 11 {'native': 402.263, 'web': 1737.0}
+11:45:56 startup 12 {'native': 393.788, 'web': 1723.0}
+11:45:58 startup 13 {'native': 401.291, 'web': 1728.0}
+11:46:00 startup 14 {'native': 397.197, 'web': 1733.0}
+11:46:04 filter 0
+11:46:07 filter 1
+11:46:10 filter 2
+11:46:13 filter 3
+11:46:17 filter 4
+11:46:40 idle 0 {'native': 294654, 'web': 594637}
+11:47:03 idle 1 {'native': 294637, 'web': 590673}
+11:47:26 idle 2 {'native': 294610, 'web': 594717}
+11:47:50 idle 3 {'native': 294600, 'web': 594807}
+11:48:13 idle 4 {'native': 294614, 'web': 595214}
+11:48:36 idle 5 {'native': 294605, 'web': 594982}
+11:48:59 idle 6 {'native': 294559, 'web': 594546}
+11:49:22 idle 7 {'native': 294663, 'web': 593343}
+11:49:46 idle 8 {'native': 294664, 'web': 596460}
+11:50:09 idle 9 {'native': 294596, 'web': 591969}
+11:50:32 idle 10 {'native': 294700, 'web': 593059}
+11:50:55 idle 11 {'native': 294607, 'web': 596907}
+11:51:18 idle 12 {'native': 294566, 'web': 596292}
+11:51:42 idle 13 {'native': 294582, 'web': 592953}
+11:52:05 idle 14 {'native': 294640, 'web': 594865}
+11:52:10 perf 0
+11:52:16 perf 1
+11:52:21 perf 2
+11:52:27 perf 3
+11:52:32 perf 4
+11:52:38 perf 5
+11:52:44 perf 6
+11:52:49 perf 7
+11:52:55 perf 8
+11:53:00 perf 9
+11:53:00 DONE

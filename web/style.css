@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 1280px;
+    height: 800px;
+    overflow: hidden;
+    font-family: 'DejaVu Sans Mono', monospace;
+    font-size: 10pt;
+    background: #ffffff;
+    color: #000000;
+}
+
+#app {
+    width: 1280px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+}
+
+#filter-input {
+    height: 32px;
+    width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    box-sizing: border-box;
+    border: 1px solid #a0a0a0;
+    outline: none;
+    padding: 0 4px;
+    flex: 0 0 32px;
+}
+
+#table-header {
+    height: 24px;
+    width: 100%;
+    display: flex;
+    background: #eeeeee;
+    border-bottom: 1px solid #999999;
+    flex: 0 0 24px;
+}
+
+.cell {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 4px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 1px solid #cccccc;
+}
+
+.col-id { width: 80px; }
+.col-name { width: 200px; }
+.col-category { width: 140px; }
+.col-value { width: 120px; }
+.col-date { width: 120px; }
+
+#table-scroll {
+    flex: 1 1 auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+}
+
+#table-spacer {
+    position: relative;
+    width: 660px;
+}
+
+.row {
+    position: absolute;
+    left: 0;
+    width: 660px;
+    height: 24px;
+    display: flex;
+    border-bottom: 1px solid #eeeeee;
+}
+
+#footer {
+    height: 24px;
+    line-height: 24px;
+    padding: 0 4px;
+    background: #eeeeee;
+    flex: 0 0 24px;
+}
